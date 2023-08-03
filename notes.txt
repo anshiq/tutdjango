@@ -1,0 +1,8 @@
+--> django-admin startproject djangoproject  // to create a django project 
+--> it gonaa create a directory  djangoproject which contains djangoproject directory and a manage.py file
+--> the djangoproject directory alongside manage.py is our main directory handling other type of servers and types and other things
+--> now to create other stuff such as a directory which handles only users or other task  
+     run python3 manage.py  startapp userhandler // this will create other directory of name userhandler alongside manage.py and djangoproject 
+--> we can create other apps also in the project  then we link them all with main source code present in djangoproject directory.
+--> python3 manage.py makemigrations mainapp  (side apps with djangoproject) it is like git add filename it is like stages the progress in project
+--> python3 manage.py migrate is like git commit 
